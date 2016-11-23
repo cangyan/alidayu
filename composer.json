@@ -1,0 +1,21 @@
+{
+    "name": "cangyan/alidayu",
+    "description": "alidayu composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cangyan",
+            "email": "me.wmf@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-0": {
+            "cangyan\\alidayu\\": "src/"
+        }
+    }
+}
